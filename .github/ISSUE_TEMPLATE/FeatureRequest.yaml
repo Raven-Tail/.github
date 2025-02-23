@@ -1,0 +1,37 @@
+name: Feature Request
+description: Suggest a new feature or enhancement
+title: "[Feature]: "
+labels: [ enhancement ]
+type: feature
+body:
+- type: markdown
+  attributes:
+    value: Have a great idea? Let us know by filling out this feature request!
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: A clear and concise description of the feature or improvement.
+  validations:
+    required: true
+
+- type: textarea
+  id: why_needed
+  attributes:
+    label: Why Is This Needed?
+    description: Explain why this feature would be useful and how it improves the project.
+  validations:
+    required: true
+
+- type: textarea
+  id: implementation
+  attributes:
+    label: Suggested Implementation
+    description: If you have an idea for implementation, describe it here.
+
+- type: textarea
+  id: additional
+  attributes:
+    label: Additional Context
+    description: Any references, screenshots, or notes to support this request.

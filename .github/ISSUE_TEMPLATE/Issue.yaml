@@ -1,0 +1,22 @@
+name: Issue
+description: For questions, discussions, or issues that don't fit into othr templates
+title: "[General]: "
+labels: [ question ]
+body:
+- type: markdown
+  attributes:
+    value: Need help or have a general question? Use this template!
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Provide a clear and concise description of your issue.
+  validations:
+    required: true
+
+- type: textarea
+  id: additional
+  attributes:
+    label: Additional Information
+    description: Any other relevant details, links, or references.

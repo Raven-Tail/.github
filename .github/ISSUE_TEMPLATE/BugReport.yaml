@@ -1,0 +1,52 @@
+name: Bug Report
+description: Report a problem to help us improve
+title: "[Bug]: "
+labels: [ bug ]
+type: bug
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to report a bug!
+      Before submitting, please make sure you've searched existing issues.
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: A clear and concise description of what the bug is.
+  validations:
+    required: true
+
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to Reproduce
+    description: Provide a step-by-step guide to reproduce the issue.
+    placeholder: |
+      1. Go to '...'
+      2. Click on '...'
+      3. See the issue
+  validations:
+    required: true
+
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected Behavior
+    description: What did you expect to happen?
+  validations:
+    required: true
+
+- type: textarea
+  id: screenshots
+  attributes:
+    label: Screenshots (if applicable)
+    description: Attach screenshots or logs that can help identify the issue.
+    placeholder: Drag and drop images here
+
+- type: textarea
+  id: additional
+  attributes:
+    label: Additional Context
+    description: Any other information that might help us diagnose the issue.
