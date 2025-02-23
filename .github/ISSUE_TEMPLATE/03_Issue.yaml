@@ -1,5 +1,5 @@
 name: Issue
-description: For questions, discussions, or issues that don't fit into othr templates
+description: For questions, discussions, or issues that don't fit into other templates
 title: "[General]: "
 labels: [ question ]
 body:
