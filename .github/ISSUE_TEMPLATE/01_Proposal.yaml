@@ -1,0 +1,53 @@
+name: "Proposal: Change Request"
+description: Suggest a change in how something works
+title: "[Proposal]: "
+labels: [ "enhancement" ]
+body:
+- type: markdown
+  attributes:
+    value: Please provide details about the change you're proposing and why it would be beneficial.
+
+- type: textarea
+  id: current-behavior
+  attributes:
+    label: "Current Behavior"
+    description: "Describe how the feature currently works, including any limitations or issues."
+    placeholder: "Currently, when X happens, the system does Y..."
+  validations:
+    required: true
+
+- type: textarea
+  id: proposed-change
+  attributes:
+    label: "Proposed Change"
+    description: "Explain what you'd like to change and how it should work instead."
+    placeholder: "Instead of Y, the system should do Z because..."
+  validations:
+    required: true
+
+- type: textarea
+  id: benefits
+  attributes:
+    label: "Benefits & Impact"
+    description: "Why is this change valuable? How does it improve usability, efficiency, or maintainability?"
+    placeholder: "This will make X easier to use, reduce confusion, improve performance..."
+  validations:
+    required: true
+
+- type: textarea
+  id: alternatives
+  attributes:
+    label: "Alternatives Considered"
+    description: "Have you considered other approaches? If so, why is this one the best?"
+    placeholder: "We could also do A, but B would be more efficient because..."
+  validations:
+    required: false
+
+- type: textarea
+  id: risks
+  attributes:
+    label: "Risks & Concerns"
+    description: "Are there any potential downsides or challenges with this change?"
+    placeholder: "This may break compatibility with X, require additional effort for Y..."
+  validations:
+    required: false
