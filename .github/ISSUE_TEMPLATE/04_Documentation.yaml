@@ -27,7 +27,7 @@ body:
     label: Suggested Improvements
     description: What needs to be added, removed, or clarified?
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: additional

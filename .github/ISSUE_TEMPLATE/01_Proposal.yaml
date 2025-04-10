@@ -32,7 +32,7 @@ body:
     description: "Why is this change valuable? How does it improve usability, efficiency, or maintainability?"
     placeholder: "This will make X easier to use, reduce confusion, improve performance..."
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: alternatives

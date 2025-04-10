@@ -22,7 +22,7 @@ body:
     label: Why Is This Needed?
     description: Explain why this feature would be useful and how it improves the project.
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: implementation
